@@ -12,35 +12,35 @@ const Menu = () => {
       name: 'Signature Espresso',
       description: 'A double shot of our finest house blend. Rich crema, bold flavor with notes of dark chocolate and cherry.',
       price: '$3.50',
-      image: '/src/assets/images/espresso_1777970373335.png'
+      image: '/images/espresso_1777970373335.png'
     },
     {
       id: 2,
       name: 'Velvet Latte',
       description: 'Smooth microfoam milk over a double shot of espresso. Creamy, comforting, and visually stunning.',
       price: '$5.00',
-      image: '/src/assets/images/latte_1777970417372.png'
+      image: '/images/latte_1777970417372.png'
     },
     {
       id: 3,
       name: 'Artisan Pour Over',
       description: 'Single-origin beans brewed meticulously to highlight delicate floral and fruity notes. A pure experience.',
       price: '$6.50',
-      image: '/src/assets/images/pourover_1777970442215.png'
+      image: '/images/pourover_1777970442215.png'
     },
     {
       id: 4,
       name: 'Cold Brew',
       description: 'Steeped for 24 hours. Refreshingly smooth, highly caffeinated, and perfect for warm afternoons.',
       price: '$4.50',
-      image: '/src/assets/images/cold_brew_1777972653731.png'
+      image: '/images/cold_brew_1777972653731.png'
     },
     {
       id: 5,
       name: 'Iced Matcha Latte',
       description: 'Ceremonial grade matcha blended with oat milk and a touch of vanilla over ice. Vibrant and earthy.',
       price: '$5.50',
-      image: '/src/assets/images/matcha_1777972803337.png'
+      image: '/images/matcha_1777972803337.png'
     },
     {
       id: 6,
