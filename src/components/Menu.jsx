@@ -63,7 +63,7 @@ const Menu = () => {
           {menuItems.map((item) => (
             <div key={`menu-${item.id}`} className="menu-card">
               <div className="menu-image-container">
-                <img src={item.image} alt={item.name} className="menu-image" />
+                <img src={item.image} alt={`Cup of ${item.name}`} className="menu-image" loading="lazy" />
                 <div className="menu-price">{item.price}</div>
               </div>
               <div className="menu-content">

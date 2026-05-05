@@ -42,7 +42,7 @@ const ShopRoasts = () => {
           {roastItems.map((item) => (
             <div key={`roast-${item.id}`} className="shop-card animate-fade-in">
               <div className="shop-image-container">
-                <img src={item.image} alt={item.name} className="shop-image" />
+                <img src={item.image} alt={`Bag of ${item.name} coffee beans`} className="shop-image" loading="lazy" />
                 <div className="shop-badge">12 oz</div>
               </div>
               <div className="shop-content">
