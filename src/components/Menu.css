@@ -1,0 +1,80 @@
+.menu {
+  background-color: var(--bg-main);
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.menu-card {
+  background-color: var(--bg-secondary);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: var(--transition);
+  border: 1px solid var(--border);
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.menu-image-container {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+}
+
+.menu-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.menu-card:hover .menu-image {
+  transform: scale(1.05);
+}
+
+.menu-price {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: var(--caramel);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+}
+
+.menu-content {
+  padding: 2rem;
+}
+
+.menu-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+}
+
+.menu-content p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.menu-cta {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.6rem;
+  font-size: 0.9rem;
+}
